@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between ;
+      align-items: center;
+      padding: 12px 40px;
+      
+      width: 1280px;
+      height: 65px;
+      
+      border-bottom: 1px solid #E6E8EB;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  
+  color: black;
+}
+.menu {
+      display: flex; 
+      gap: 15px; 
+}
+
+.menu a{
+  text-decoration: none; 
+  color: black; 
+  padding: 5px 10px; 
+}
+
+.button-signin {
+  background-color: #3b3a3a;
+  border-radius: 20px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+.col-lg-6 img{
+  width: 928px;
+  height: 300px;
+  min-height: 480px;
+  padding: 260px 24px 24px 56px;
+  gap: 32px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+
+} 
+
+
+
+.card-body h6 a{
+  text-decoration: none;
+  color: black;
+} 
+
+h1{
+  margin-bottom: 20px;
+}
+.center-form-check {
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px;
+  
+ 
+}

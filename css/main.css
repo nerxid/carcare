@@ -1,0 +1,10 @@
+#cart-count {
+  position: absolute; /* Change to absolute positioning */
+  top: -5px; /* Adjust top position */
+  right: -10px; /* Adjust right position */
+  background-color: red; /* Ensure it has a visible background */
+  color: white; /* Text color for better contrast */
+  border-radius: 50%; /* Make it round */
+  padding: 2px 5px; /* Add some padding */
+  font-size: 12px; /* Adjust font size if necessary */
+}
